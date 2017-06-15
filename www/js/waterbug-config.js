@@ -46,7 +46,8 @@ var copyrightOptions = {
         photographerRequired: true,
         sourceRequired: false,
         source: freelanceString,
-        display: 'Freelance'
+        display: 'Freelance',
+        delimiter: ' '
     },
     'getty': {
         showPhotographer: true,
