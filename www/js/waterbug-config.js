@@ -70,7 +70,7 @@ var copyrightOptions = {
         showSource: true,
         photographerRequired: false,
         sourceRequired: true,
-        prefix: 'Courtesy of',
+        prefix: 'Courtesy of ',
         source: '',
         display: 'Third Party/Courtesy',
         delimiter: ' '
