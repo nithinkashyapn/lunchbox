@@ -66,12 +66,14 @@ var copyrightOptions = {
         display: 'AP'
     },
     'thirdParty': {
-        showPhotographer: true,
+        showPhotographer: false,
         showSource: true,
         photographerRequired: false,
         sourceRequired: true,
+        prefix: 'Courtesy of',
         source: '',
-        display: 'Third Party/Courtesy'
+        display: 'Third Party/Courtesy',
+        delimiter: ' '
     }
 }
 
