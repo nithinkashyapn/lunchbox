@@ -22,17 +22,17 @@ PROJECT_FILENAME = 'lunchbox'
 
 # The name of the repository containing the source
 REPOSITORY_NAME = 'lunchbox'
-GITHUB_USERNAME = 'nprapps'
+GITHUB_USERNAME = 'voxmedia'
 REPOSITORY_URL = 'git@github.com:%s/%s.git' % (GITHUB_USERNAME, REPOSITORY_NAME)
 REPOSITORY_ALT_URL = None # 'git@bitbucket.org:nprapps/%s.git' % REPOSITORY_NAME'
 
-DEV_CONTACT = 'EDIT THIS IN APP_CONFIG.PY'
+DEV_CONTACT = 'Ryan Mark <ryan.mark@voxmedia.com>'
 
 """
 DEPLOYMENT
 """
-PRODUCTION_S3_BUCKET = 'apps.npr.org'
-STAGING_S3_BUCKET = 'stage-apps.npr.org'
+PRODUCTION_S3_BUCKET = 'apps.voxmedia.org'
+STAGING_S3_BUCKET = 'test-apps.voxmedia.org'
 DEFAULT_MAX_AGE = 20
 
 FILE_SERVER_USER = 'ubuntu'

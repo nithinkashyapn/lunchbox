@@ -2,6 +2,10 @@
 {{ JS.push('js/lib/webfont.js') }}
 {{ JS.render('js/webfont.min.js') }}
 <script>
-	// Define your web fonts here.
-	// See https://github.com/typekit/webfontloader for documentation
+WebFont.load({
+  custom: {
+    families: ['Balto:n4,i4,i6,n7', 'Harriet:i4', 'HarrietDisplayBlack:n4'],
+    urls: ['https://fonts.voxmedia.com/unison/stylesheets/vox.0e5fbdb944cfd2ebf347dcc8f8246d7b.css']
+  }
+});
 </script>
