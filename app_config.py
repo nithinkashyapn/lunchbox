@@ -15,7 +15,7 @@ NAMES
 """
 # Project name to be used in urls
 # Use dashes, not underscores!
-PROJECT_SLUG = 'lunchbox-test'
+PROJECT_SLUG = 'lunchbox'
 
 # Project name to be used in file paths
 PROJECT_FILENAME = 'lunchbox'
@@ -32,9 +32,9 @@ DEV_CONTACT = 'Ryan Mark <ryan.mark@voxmedia.com>'
 DEPLOYMENT
 """
 PRODUCTION_S3_BUCKET = 'apps.voxmedia.org'
-PRODUCTION_S3_DOMAIN = 'http://%s' % PRODUCTION_S3_BUCKET
-STAGING_S3_BUCKET = 'test-apps.voxmedia.org'
-STAGING_S3_DOMAIN = 'http://%s' % STAGING_S3_BUCKET
+PRODUCTION_S3_DOMAIN = 'https://%s' % PRODUCTION_S3_BUCKET
+STAGING_S3_BUCKET = 'test.apps.voxmedia.org'
+STAGING_S3_DOMAIN = 'https://test-apps.voxmedia.com'
 DEFAULT_MAX_AGE = 20
 
 FILE_SERVER_USER = 'ubuntu'
