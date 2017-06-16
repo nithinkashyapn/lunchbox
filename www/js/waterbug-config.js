@@ -72,8 +72,15 @@ var copyrightOptions = {
         sourceRequired: true,
         prefix: 'Courtesy of ',
         source: '',
-        display: 'Third Party/Courtesy',
-        delimiter: ' '
+        display: 'Third Party/Courtesy'
+    },
+    'other': {
+        showPhotographer: true,
+        showSource: true,
+        photographerRequired: false,
+        sourceRequired: true,
+        source: '',
+        display: 'Other'
     }
 }
 
