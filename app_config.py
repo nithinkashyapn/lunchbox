@@ -13,6 +13,9 @@ import os
 """
 NAMES
 """
+# Change the name of the app that shows up everywhere
+PROJECT_NAME = 'Lunchbox'
+
 # Project name to be used in urls
 # Use dashes, not underscores!
 PROJECT_SLUG = 'lunchbox'
@@ -27,6 +30,9 @@ REPOSITORY_URL = 'git@github.com:%s/%s.git' % (GITHUB_USERNAME, REPOSITORY_NAME)
 REPOSITORY_ALT_URL = None # 'git@bitbucket.org:nprapps/%s.git' % REPOSITORY_NAME'
 
 DEV_CONTACT = 'Ryan Mark <ryan.mark@voxmedia.com>'
+
+# URL for the favicon
+FAVICON = 'http://media.npr.org/favicon.ico'
 
 """
 DEPLOYMENT
