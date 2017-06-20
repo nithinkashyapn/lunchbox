@@ -2,13 +2,13 @@
 var elementPadding = 40; // padding around the logo and credit text
 
 // Crop options
-var currentCrop = 'cinema'; // default crop size
+var currentCrop = 'twitter'; // default crop size
 var cropOptions = {
-    'cinema': {
-        display: '16:9',
-        width: 1000,
-        height: Math.round(1000 / (16/9))
-    },
+    //'cinema': {
+        //display: '16:9',
+        //width: 1000,
+        //height: Math.round(1000 / (16/9))
+    //},
     'twitter': {
         display: '2:1 <i class="fa fa-twitter"></i>',
         width: 1024,
