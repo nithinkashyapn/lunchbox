@@ -14,14 +14,14 @@ import os
 NAMES
 """
 # Change the name of the app that shows up everywhere
-PROJECT_NAME = 'Lunchbox'
+PROJECT_NAME = 'VoxBox'
 
 # Project name to be used in urls
 # Use dashes, not underscores!
-PROJECT_SLUG = 'lunchbox'
+PROJECT_SLUG = 'voxbox'
 
 # Project name to be used in file paths
-PROJECT_FILENAME = 'lunchbox'
+PROJECT_FILENAME = 'voxbox'
 
 # The name of the repository containing the source
 REPOSITORY_NAME = 'lunchbox'
@@ -32,7 +32,7 @@ REPOSITORY_ALT_URL = None # 'git@bitbucket.org:nprapps/%s.git' % REPOSITORY_NAME
 DEV_CONTACT = 'Ryan Mark <ryan.mark@voxmedia.com>'
 
 # URL for the favicon
-FAVICON = 'http://media.npr.org/favicon.ico'
+FAVICON = 'https://cdn2.vox-cdn.com/community_logos/52517/voxv.png'
 
 """
 DEPLOYMENT
