@@ -31,9 +31,9 @@ DEV_CONTACT = 'Ryan Mark <ryan.mark@voxmedia.com>'
 """
 DEPLOYMENT
 """
-PRODUCTION_S3_BUCKET = 'apps.voxmedia.org'
+PRODUCTION_S3_BUCKET = 'apps.voxmedia.com'
 PRODUCTION_S3_DOMAIN = 'https://%s' % PRODUCTION_S3_BUCKET
-STAGING_S3_BUCKET = 'test.apps.voxmedia.org'
+STAGING_S3_BUCKET = 'test.apps.voxmedia.com'
 STAGING_S3_DOMAIN = 'https://test-apps.voxmedia.com'
 DEFAULT_MAX_AGE = 20
 
