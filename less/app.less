@@ -16,8 +16,12 @@ canvas {
 header {
     background: @gray-darker;
     margin: 0;
-    padding: 25px @grid-gutter-width / 2;
+    // padding: 25px @grid-gutter-width / 2;
+    padding: 0 30px;
     color: @gray-lighter;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
     .home & {
         @media screen and (min-width: 700px){
@@ -44,14 +48,6 @@ header {
     }
 
     .nav-links {
-        margin: 0 0 11px 0;
-        padding: 0;
-
-        @media screen and (min-width: 700px){
-            margin: 0 auto;
-            padding: 0 @grid-gutter-width / 2;
-            float: right;
-        }
 
         a {
             line-height: 32px;
@@ -68,21 +64,31 @@ header {
                 color: #eee;
                 opacity: 0.5;
             }
-
-            @media screen and (min-width: 700px){
-                text-align: right;
-            }
         }
     }
 
+    .left{
+      display: flex;
+      align-items: center;
+    }
+
+    .logo{
+      background: @theme2-logo-path;
+      height: 37px;
+      width: 100px;
+      margin: 4px 0;
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
 
     h1 {
         display: inline-block;
-        text-transform: uppercase;
-        font-weight: normal;
+        // text-transform: uppercase;
+        font-weight: 500;
         line-height: 32px;
-        font-size: @font-size-h3;
-        letter-spacing: 2px;
+        // font-size: @font-size-h3;
+        // letter-spacing: 2px;
+        font-size: 20px;
         margin: 0;
         -webkit-font-smoothing: antialiased;
         font-family: @font-family;
@@ -99,9 +105,6 @@ header {
             text-transform: none;
         }
 
-        @media screen and (min-width: 700px){
-            font-size: @font-size-h1;
-        }
     }
 }
 
@@ -269,6 +272,17 @@ header {
         padding: 5px;
     }
 
+    .btn, .btn:focus{
+      &.disabled,
+      &[disabled],
+      fieldset[disabled] & {
+        cursor: not-allowed;
+        pointer-events: auto;
+        .opacity(.65);
+        .box-shadow(none);
+      }
+    }
+
     .btn:active,
     .btn.active {
         outline: 0;
@@ -276,7 +290,7 @@ header {
         -webkit-box-shadow: none;
         box-shadow: none;
     }
-    
+
     input[type="range"] {
     	width: 100%;
     }
@@ -284,11 +298,11 @@ header {
     label {
         display: block;
         font-weight: normal;
-        letter-spacing: 0.1rem;
+        // letter-spacing: 0.1rem;
         color: #000;
 
         &.btn {
-            color: #fff;
+            color: @btn-primary-color;
         }
         .tooltip {
             text-transform: none;

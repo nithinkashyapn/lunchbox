@@ -5,43 +5,61 @@
 
 .wrapper {
     padding: @grid-gutter-width;
+    padding: 0;
 
     @media screen  and (min-width: 960px){
         position: absolute;
-        top: 87px;
+        top: 45px;
         right: 0;
         bottom: 0;
         left: 0;
         overflow: hidden;
+        padding: 55px 30px 0 30px;
     }
 }
 
 .controls {
+    background-color: @column-bg;
+    @media screen and (max-width: 960px){
+        padding: 30px;
+    }
+
     @media screen and (min-width: 960px){
         position: absolute;
-        left: 640px + @grid-gutter-width;
+        left: 670px + @grid-gutter-width;
         right: 0;
         top: 0;
         bottom: 0;
-        padding: 30px;
+        padding: 55px 30px 30px 30px;
         overflow: scroll;
     }
+    @media screen and (min-width: 1300px){
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: initial;
+        padding: 30px;
+        overflow: scroll;
+        width: 100%;
+        max-width: 600px;
+    }
 }
-    
-.controls-wrapper { 
+
+.controls-wrapper {
     padding-top: 0;
 
     input[type="file"] {
         font-family: @font-family;
         font-size: @font-size-small;
-        color: @gray-light;
+        color: @btn-primary-color;
     }
 
     .btn-primary:disabled { pointer-events: auto; }
 
     .form-group {
         > label { font-size: @font-size-small; }
-    
+
         .help {
             color: @gray-light;
             font-size: 13px;
@@ -80,9 +98,9 @@
         font-family: @condensed-font-family;
         font-size: @font-size-small;
         letter-spacing: 0.05rem;
-        
+
         .disabled { padding: 4px 15px 6px 0; }
-        
+
         > li > a {
             padding: 6px 15px 4px;
             text-transform: none;
@@ -106,10 +124,8 @@
     }
 
     .sample-credit {
-        font-size: 12px;
+        font-size: 14px;
         font-family: @condensed-font-family;
-        text-transform: uppercase;
-        letter-spacing: 0.05rem;
         color: @gray-light;
     }
 }
@@ -140,9 +156,7 @@
 
 .drag-help {
     margin-top: 8px;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 0.05rem;
+    font-size: 14px;
     font-family: @condensed-font-family;
     color: @gray-light;
 
@@ -228,7 +242,7 @@
     display: inline;
 }
 
-.fileinput-filename, 
+.fileinput-filename,
 .custom-filename {
      display: inline-block;
      overflow: hidden;
