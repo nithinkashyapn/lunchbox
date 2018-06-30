@@ -14,32 +14,34 @@ var $resetHighlight = null;
 
 var quotes = [
     {
-        "quote": "I'd been drinking.",
-        "source": "Dennis Rodman"
+        "quote": "I have not failed. I've just found 10,000 ways that won't work.",
+        "source": "Thomas A. Edison",
+        "size": 55
     },
     {
-        "quote": "I've made a huge mistake.",
-        "source": "G.O.B."
+        "quote": "I think being in love with life is a key to eternal youth.",
+        "source": "Doug Hutchison",
+        "size": 55
     },
     {
-        "quote": "Yes, I have smoked crack cocaine",
-        "source": "Toronto Mayor Rob Ford",
+        "quote": "A man who dares to waste one hour of time has not discovered the value of life.",
+        "source": "Charles Darwin",
+        "size": 50
+    },
+    {
+        "quote": "The truth is you don’t know what is going to happen tomorrow. Life is a crazy ride, and nothing is guaranteed.",
+        "source": "Eminem",
+        "size": 45
+    },
+    {
+        "quote": "All life is an experiment. The more experiments you make the better.",
+        "source": "Ralph Waldo Emerson",
         "size": 65
     },
     {
-        "quote": "Annyong.",
-        "source": "Annyong",
-        "size": 90
-    },
-    {
-        "quote": "STEVE HOLT!",
-        "source": "Steve Holt",
-        "size": 65
-    },
-    {
-        "quote": "Whoa, whoa, whoa. There's still plenty of meat on that bone. Now you take this home, throw it in a pot, add some broth, a potato. Baby, you've got a stew going.",
-        "source": "Carl Weathers",
-        "size": 40
+        "quote": "The more you praise and celebrate your life, the more there is in life to celebrate.",
+        "source": "Oprah Winfrey",
+        "size": 50
     }
 ];
 
