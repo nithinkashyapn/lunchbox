@@ -14,33 +14,33 @@ import os
 NAMES
 """
 # Change the name of the app that shows up everywhere
-PROJECT_NAME = 'Lunchbox'
+PROJECT_NAME = 'VoxBox'
 
 # Project name to be used in urls
 # Use dashes, not underscores!
-PROJECT_SLUG = 'lunchbox-test'
+PROJECT_SLUG = 'voxbox'
 
 # Project name to be used in file paths
-PROJECT_FILENAME = 'lunchbox'
+PROJECT_FILENAME = 'voxbox'
 
 # The name of the repository containing the source
 REPOSITORY_NAME = 'lunchbox'
-GITHUB_USERNAME = 'nprapps'
+GITHUB_USERNAME = 'voxmedia'
 REPOSITORY_URL = 'git@github.com:%s/%s.git' % (GITHUB_USERNAME, REPOSITORY_NAME)
 REPOSITORY_ALT_URL = None # 'git@bitbucket.org:nprapps/%s.git' % REPOSITORY_NAME'
 
-DEV_CONTACT = 'EDIT THIS IN APP_CONFIG.PY'
+DEV_CONTACT = 'Ryan Mark <ryan.mark@voxmedia.com>'
 
 # URL for the favicon
-FAVICON = 'http://media.npr.org/favicon.ico'
+FAVICON = 'https://cdn2.vox-cdn.com/community_logos/52517/voxv.png'
 
 """
 DEPLOYMENT
 """
-PRODUCTION_S3_BUCKET = 'apps.npr.org'
-PRODUCTION_S3_DOMAIN = 'http://%s' % PRODUCTION_S3_BUCKET
-STAGING_S3_BUCKET = 'stage-apps.npr.org'
-STAGING_S3_DOMAIN = 'http://%s' % STAGING_S3_BUCKET
+PRODUCTION_S3_BUCKET = 'apps.voxmedia.com'
+PRODUCTION_S3_DOMAIN = 'https://%s' % PRODUCTION_S3_BUCKET
+STAGING_S3_BUCKET = 'test.apps.voxmedia.com'
+STAGING_S3_DOMAIN = 'https://test-apps.voxmedia.com'
 DEFAULT_MAX_AGE = 20
 
 FILE_SERVER_USER = 'ubuntu'

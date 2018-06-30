@@ -25,15 +25,19 @@
 
     {% block header_content %}
     <header>
-        <div class="nav-links">
-            <a href="../quotable/index.html" {% if name == 'Quotable' %} class="active" {% endif %}>Quotable</a>
-            <a href="../factlist/index.html" {% if name == 'Factlist' %} class="active" {% endif %}>Factlist</a>
-            <a href="../waterbug/index.html" {% if name == 'Waterbug' %} class="active" {% endif %}>Waterbug</a>
-        </div>
+      <div class="left">
+        <div class="logo"></div>
+        <h1>{{ PROJECT_NAME }}</h1>
+      </div>
 
-        <a href="../index.html" class="home-link">
-            <h1>{{ PROJECT_NAME }}</h1>
-        </a>
+      <div class="nav-links">
+          <!-- <a href="../quotable/index.html" {% if name == 'Quotable' %} class="active" {% endif %}>Quotable</a> -->
+          <!-- <a href="../factlist/index.html" {% if name == 'Factlist' %} class="active" {% endif %}>Factlist</a> -->
+          <a href="../waterbug/index.html" {% if name == 'Waterbug' %} class="active" {% endif %}>Waterbug</a>
+      </div>
+      <!-- <a href="../index.html" class="home-link">
+          <h1>{{ PROJECT_NAME }}</h1>
+      </a> -->
     </header>
     {% endblock header_content %}
 
