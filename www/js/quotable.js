@@ -103,7 +103,7 @@ function saveImage() {
         var quote = $('blockquote').text().split(' ', 5);
         var filename = convertToSlug(quote.join(' '));
 
-        var a = $("<a>").attr("href", strDataURI).attr("download", "quote-" + filename + ".png").appendTo("body");
+        var a = $("<a>").attr("href", strDataURI).attr("download", "quote-" + (Math.floor(Math.random() * (99999999999999 - 0 + 1))) + ".png").appendTo("body");
 
         a[0].click();
 
